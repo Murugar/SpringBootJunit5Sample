@@ -1,0 +1,19 @@
+= Employees REST API
+
+=== POST /api/v1/employees
+.request
+include::{snippets}/api-v1-employees-post/http-request.adoc[]
+.response
+include::{snippets}/api-v1-employees-post/http-response.adoc[]
+.response
+fields
+include::{snippets}/api-v1-employees-post/response-fields.adoc[]
+
+=== GET /api/v1/employees
+.request
+include::{snippets}/api-v1-employees-get/http-request.adoc[]
+.response
+include::{snippets}/api-v1-employees-get/http-response.adoc[]
+.response
+fields
+include::{snippets}/api-v1-employees-get/response-fields.adoc[]

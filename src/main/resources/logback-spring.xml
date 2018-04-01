@@ -1,0 +1,13 @@
+<configuration>
+  <include resource="org/springframework/boot/logging/logback/base.xml"/>
+  <jmxConfigurator/>
+  <logger name="com.objectcomputing" level="info"/>
+  <logger name="org.apache.cxf" level="warn"/>
+  <logger name="org.springframework" level="warn"/>
+  <logger name="org.hibernate" level="error"/>
+  
+   <logger name="org.hibernate.SQL" level="warn"/>
+  <!-- Binding values -->
+  <logger name="org.hibernate.type.descriptor.sql.BasicBinder" level="warn"/>
+  
+</configuration>
